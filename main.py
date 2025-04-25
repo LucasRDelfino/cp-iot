@@ -69,6 +69,7 @@ while True:
         break
 
 # Fecha a conexão com o Arduino e a captura de vídeo
+arduino.write(b'0')
 arduino.close()
 cap.release()
 cv2.destroyAllWindows()

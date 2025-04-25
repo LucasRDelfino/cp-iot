@@ -55,5 +55,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
-agora deu certo só quero fazer uma adaptação para uma comunicação com o arduino preciso me conectar a uma porta serial e enviar o valor 1 quando for queda e 0 quando nao tiver consegue me passar o código do arduino tbm?
