@@ -12,7 +12,7 @@ mp_draw = mp.solutions.drawing_utils
 # Configura a comunicação serial com o Arduino
 # Substitua 'COM3' pela porta correta do seu Arduino
 try:
-    arduino = serial.Serial('COM3', 9600, timeout=1)
+    arduino = serial.Serial('COM5', 9600, timeout=1)
     time.sleep(2)  # Aguarda a conexão ser estabelecida
 except serial.SerialException as e:
     print(f"Erro ao conectar ao Arduino: {e}")
